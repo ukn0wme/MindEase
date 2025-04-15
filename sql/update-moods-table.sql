@@ -28,4 +28,3 @@ CREATE POLICY "Users can delete their own moods"
   ON moods
   FOR DELETE
   USING (auth.uid() = user_id);
-

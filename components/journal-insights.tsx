@@ -186,4 +186,3 @@ function extractTopics(entries: any[]): string[] {
 
   return commonTopics.filter((topic) => allText.includes(topic)).slice(0, 6) // Limit to 6 topics
 }
-

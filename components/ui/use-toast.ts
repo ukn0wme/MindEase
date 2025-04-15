@@ -90,4 +90,3 @@ export function useToast(): ToastActionType {
     dismiss: dismissCallback,
   }
 }
-

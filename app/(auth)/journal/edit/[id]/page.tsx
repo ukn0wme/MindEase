@@ -228,4 +228,3 @@ export default function EditJournalEntryPage({ params }: { params: { id: string 
     </div>
   )
 }
-

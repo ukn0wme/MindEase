@@ -28,4 +28,3 @@ export const getFileIcon = (contentType: string) => {
   if (contentType.includes("presentation") || contentType.includes("powerpoint")) return "file-presentation"
   return "file"
 }
-

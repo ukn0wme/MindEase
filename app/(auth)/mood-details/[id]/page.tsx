@@ -322,4 +322,3 @@ export default function MoodDetailsPage({ params }: { params: { id: string } }) 
     </div>
   )
 }
-
